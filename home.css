@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    width: 100%;
+    background-color: #F4F8D3;
+    color: #27391C;
+    align-items: center;
+}
+
+nav>div:nth-child(1)
+{
+    cursor: pointer;
+}
+nav>div:nth-child(2)
+{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+   
+}
+a{
+    text-decoration: none;
+    color: #27391C;
+}
+li{
+    list-style: none;
+}
+nav>div>button{
+   padding: 10px 30px;
+   border: none;
+   background-color:#41a404 ;
+   color:#F4F8D3 ;
+   cursor: pointer;
+   border-radius: 10px;
+   
+}
+#nav2{
+    height: 40px;
+    width: 100%;
+    background-color: #27391c;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+#nav2>div:nth-child(1)
+{
+    height: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+select{
+    background-color:#F4F8D3 ;
+    color: #27391C;
+}
+#img{
+    position: relative;
+    top: 50px;
+}
+
+#nav2 select{
+    height: 30px;
+    position: absolute;
+    top: 65px;
+    right: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+
+}
+#nav2 input{
+    width: 600px;
+    border-radius: 5px;
+    height: 35px;
+}
+#nav2 input::placeholder{
+    position: relative;
+    left: 50px;
+    color: #27391C;
+}
+#card-container{
+    height: 600px;
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    #card{
+        height: 400px;
+        width: 300px;
+        background-color: rgb(24, 24, 24);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 15px;
+    }
+    #card-img15{
+        height: 300px;
+        width:250px ;
+        background-image: url("https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTkPnRAZ-jDuaJEr07m0r-JHhdZzR7WsPApFY7Xg_kMLjXuyoaUbKidqxm5BuPPM4lGjuAduJ2xhh33Y7g0Iwp4TvQMb6b2HERe4hWnNeqX&usqp=CAE");
+        background-repeat: no-repeat;
+        background-size: 250px 300px;
+    }
+    #card-img1{
+        height: 300px;
+        width:250px ;
+        background-image: url("https://modaman.in/cdn/shop/files/4M6A9769.jpg?v=1688988047" );
+        background-repeat: no-repeat;
+        background-size: 250px 300px;
+    }
+    #btn>button:nth-child(1)
+    {
+        padding: 7px 25px;
+        border-radius: 20px;
+        background-color:cornflowerblue ;
+    }
+    #btn>button:nth-child(1):hover{
+        pointer-events: fill;
+    
+    }
+    #btn>button:nth-child(2)
+    {
+        padding: 7px 15px;
+        border-radius: 20px;
+        background-color: chocolate;
+    }
+
+    #card-img2{
+        height: 300px;
+        width:250px ;
+        background-image: url("https://rukminim3.flixcart.com/image/850/1000/kykgb680/shirt/q/r/f/xxl-8901256583669-the-collection-original-imagas2gzkdwvmwx.jpeg?q=90&crop=false");
+        background-repeat: no-repeat;
+        background-size: 250px 300px;
+    }
+    #card-img3{
+        height: 300px;
+        width:250px ;
+        background-image: url("https://cdn1.staticans.com/image/data/Vastrado/21mar25/MK6212B_1.jpg?width=494&height=660&mode=fill&fill=solid&fill-color=FFFFFF");
+        background-repeat: no-repeat;
+        background-size: 250px 300px;
+    }
+    #card-img4{
+        height: 300px;
+        width:250px ;
+        background-image: url("https://social.thearvindstore.com/data/insta_images/Arvindmenswearofficial/2855247647176832253.jpg");
+        background-repeat: no-repeat;
+        background-size: 250px 300px;
+    }
+
+    #card-img11{
+        height: 300px;
+        width:250px ;
+        background-image: url("https://static-assets.business.amazon.com/assets/in/2nd-feb-2024/shared/gift1.jpg.transform/1450x664/image.jpg");
+        background-repeat: no-repeat;
+        background-size: 250px 300px;
+    }
+
+    #card-img12{
+        height: 300px;
+        width:250px ;
+        background-image: url("https://i.pinimg.com/736x/92/66/59/926659271fe3fae67099c97499a04bff.jpg");
+        background-repeat: no-repeat;
+        background-size: 250px 300px;
+    }
+    #card-img13{
+        height: 300px;
+        width:250px ;
+        background-image: url("https://m.media-amazon.com/images/I/81ABtRHtuKL._SX679_.jpg");
+        background-repeat: no-repeat;
+        background-size: 250px 300px;
+    }
+    #card-img14{
+        height: 300px;
+        width:250px ;
+        background-image: url("https://m.media-amazon.com/images/I/61Xg2AUzVWL._SL1500_.jpg");
+        background-repeat: no-repeat;
+        background-size: 250px 300px;
+    }
+    #card-img15{
+        height: 300px;
+        width:250px ;
+        background-image: url("https://media.istockphoto.com/id/1310533208/photo/happy-adult-man-walking-sunny-city-street-sidewalk.jpg?s=1024x1024&w=is&k=20&c=nJHwomd7AhGDIELQRhXiSx3S6zPxRWt6bZFNs57jYdU=");
+        background-repeat: no-repeat;
+        background-size: 250px 300px;
+    }
+    #card-img16{
+        height: 300px;
+        width:250px ;
+        background-image: url("https://m.media-amazon.com/images/I/616xchp1ECL._AC_UL480_FMwebp_QL65_.jpg");
+        background-repeat: no-repeat;
+        background-size: 250px 300px;
+    }
+    #card-img17{
+        height: 300px;
+        width:250px ;
+        background-image: url("https://m.media-amazon.com/images/I/41GhNJLgGrL.jpg");
+        background-repeat: no-repeat;
+        background-size: 250px 300px;
+    }
+    #card-img18{
+        height: 300px;
+        width:250px ;
+        background-image: url("https://m.media-amazon.com/images/I/61fvrOVgVXL._AC_UL480_FMwebp_QL65_.jpg");
+        background-repeat: no-repeat;
+        background-size: 250px 300px;
+    }
+    
+
+    #shirt{
+        color: black;
+        position: absolute;
+        top: 10px;
+        z-index: 8;
+    }
